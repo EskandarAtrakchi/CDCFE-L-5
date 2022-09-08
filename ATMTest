@@ -186,4 +186,4 @@ import java.util.Scanner;// Scanner class from Java utilities library
 					struserInput=input.next();//take in user input as a string
 					}//end while loop	
 			}//end method
-			}//end class 
+		}//end class 
