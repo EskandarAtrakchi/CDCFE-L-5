@@ -1,0 +1,206 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.banner-imageone {
+    min-height: 100vh;
+    width: 100%;
+    background-color: linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7));
+    background:  url('../img/13.jpg');
+    font-weight: 300;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-padding: 20px;
+}
+.inner-imagefont {
+    
+}
+.innerbody {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 7px;
+}
+.navdiv {
+    height:100%;
+    display: table;
+    float: right;
+    padding: 0px 22px;
+    margin: auto;
+    background-color: white;
+    color: white;
+    width: 100%;
+}
+.navdiv h4 a {
+    height: 100%;
+    color: black;
+    padding: 7px;
+    float: right;
+    padding: 6px;
+    box-shadow: grey;
+    cursor: pointer;
+    position: relative;
+    transition: 1.86s;
+    overflow: hidden;
+    transition: background-color 1.34543s ease-out
+    
+}
+.navdiv a:hover {
+    background-color: black;
+    color: green;
+    opacity: 1;
+    fill: black;
+    box-shadow: grey;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 2.5px 4.25%;
+    color: white;
+    transition: background-color 1.3723s ease-out
+}
+#email {
+    color: black;
+    opacity: 1;
+    fill: #0f0f0a;
+    box-shadow: grey;
+    cursor: pointer;
+    padding: 2.5px 4.25%;
+    transition: background-color 1.3723s ease-out
+}
+#termsfooter :hover {
+    color: hsl(210, 100%, 25%);
+    transition: background-color 2.2132s ease-out
+}
+#GLQsocial :hover {
+}
+#paymenylinkone :hover {
+    background-color: black;
+    color: green;
+    fill: black;
+    box-shadow: grey;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.87777567rem;
+    transition: background-color 1.3723s ease-out
+}
+#logoone {
+    width:100px;
+    display: table;
+}
+#banner-image {
+    width: 100%;
+    padding-top: 7px;
+    color: #ffffff;
+    font-size: 55px;
+    padding-bottom: 100px;	
+    background:  url('../img/8.png');
+    
+}
+#banner-image h4 {
+    font-weight: 300;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+#banner-image h3 {
+    font-weight: 300;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+#pone {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: red-sans-serif;
+}
+.tableone th, td {
+    border:1px solid black;
+    border-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+#ptwo {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: green;
+}
+footer{ 
+background-color: #f8fafa;
+text-align: center;
+border: 1px solid #02b8dd;
+}
+footer p {
+padding: 10px;
+Color: red;
+}
+footer a {
+color: green;
+
+}
+.endofthepage {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 7px;
+    border: 4px solid #02b8dd;
+}
+.endofthepage a:hover {
+    background-color: black;
+    color: green;
+    opacity: 1;
+    fill: black;
+    box-shadow: grey;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 2.5px 4.25%;
+    border-radius: 0.87777567rem;
+    color: white;
+    transition: background-color 1.3723s ease-out
+}
+.boxout {
+    min-height: 70vh;
+    padding-top: 8rem;
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.boxin {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13.75rem, 1fr));
+    grid-gap: 5rem;
+    align-items: stretch;
+    width: 100%;
+    margin: auto 0;
+}
+
+.box1, .box2, .box3 {
+    background-color:#80ffff;
+    text-align: center;
+    position: relative;
+    border-radius: 0.94rem;
+    padding: 2.5rem 1.25rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+    overflow: hidden;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+    transform: scale(1.1);
+}
